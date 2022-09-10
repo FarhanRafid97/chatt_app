@@ -34,9 +34,13 @@ const Login: React.FC<
   return (
     <>
       <div className="w-screen h-screen justify-center items-center flex">
-        <div className="flex flex-col gap-y-4 w-2/6">
+        <div className="flex flex-col gap-y-4 gap-y-4 sm:w-5/6 md:w-4/6  lg:w-3/6 xl:w-2/6">
           <h3>Login</h3>
-          <form method="post" action="/api/auth/callback/credentials">
+          <form
+            method="post"
+            className=""
+            action="/api/auth/callback/credentials"
+          >
             <input name="csrfToken" type="hidden" defaultValue={csrfToken} />
             <div className="flex flex-col gap-y-4">
               <div className="flex flex-col">

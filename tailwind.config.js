@@ -7,10 +7,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      sm: '560px',
+      sm: '460px',
       // => @media (min-width: 640px) { ... }
 
-      md: '561px',
+      md: '761px',
       // => @media (min-width: 768px) { ... }
 
       lg: '1024px',
