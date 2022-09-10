@@ -82,6 +82,8 @@ const Register: React.FC<RegisterProps> = ({}) => {
                   placeholder="******"
                   type="password"
                   name="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   required
                   id="password-input"
                   className="input mt-1 input-bordered input-warning "
